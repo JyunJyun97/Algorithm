@@ -27,7 +27,6 @@ int main(void)
 		for (int i = 1; i <= n; i++) {
 			string key2; cin >> key2;
 			change[i] = ma[key2];
-			//change[a] = b; --> a번째 단어를 b 번째로 옮겨야 함
 		}
 		for (int i = 1; i <= n; i++) {
 			string temp; cin >> temp;
